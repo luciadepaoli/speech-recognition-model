@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "free-spoken-digit-dataset",
+  "dataset_size": 21222138,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/free-spoken-digit-dataset@c34455c99604d35cb8d27328c267be1478efc903/data/train-00000-of-00001.parquet": {
+      "num_bytes": 17651752,
+      "checksum": null
+    },
+    "hf://datasets/mteb/free-spoken-digit-dataset@c34455c99604d35cb8d27328c267be1478efc903/data/test-00000-of-00001.parquet": {
+      "num_bytes": 1980617,
+      "checksum": null
+    }
+  },
+  "download_size": 19632369,
+  "features": {
+    "audio": {
+      "_type": "Audio"
+    },
+    "label": {
+      "names": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 40854507,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 19131789,
+      "num_examples": 2700,
+      "dataset_name": "free-spoken-digit-dataset"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2090349,
+      "num_examples": 300,
+      "dataset_name": "free-spoken-digit-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

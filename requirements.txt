@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+sounddevice
+scipy
+joblib
+librosa
+numpy
+datasets
+matplotlib
+ipython
+scikit-learn
+seaborn
